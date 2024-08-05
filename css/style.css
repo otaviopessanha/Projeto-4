@@ -1,0 +1,54 @@
+/* geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+.container{
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* /geral */
+
+/* header */
+header{
+    padding: 20px 2%;
+}
+
+header .logo img{
+    float: left;
+    width:236px;
+}
+
+header nav{
+    float: right;
+}
+
+header nav ul{
+    padding: 8px 0;
+    list-style-type: none;
+}
+
+header nav ul li{
+    float: left;
+    font-size: 14px;
+    padding: 0 28px;
+    text-transform: uppercase;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #b4b4b4;
+}
+/* /header */
