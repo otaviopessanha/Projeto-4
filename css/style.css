@@ -52,3 +52,64 @@ header nav ul li a{
     color: #b4b4b4;
 }
 /* /header */
+
+/* mosaic */
+.mosaic-single{
+    float: left;
+    width: calc(100% / 6);
+}
+
+.img-mosaic-single{
+    width: 100%;
+    padding-top: 100%;
+    background-color: #ccc;
+    border: 5px solid white;
+    /* background-image: url(); */
+}
+/* /mosaic */
+
+/* service */
+section.service .container{
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -30px;
+    text-align: center;
+}
+
+section.service .container .box-service{
+    background-image: url('../images/icone_dente.png');
+    background-size: 18px 18px;
+    background-position: center calc(100% - 5px);
+    background-repeat: no-repeat;
+}
+
+section.service .container .box-service h2{
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+section.service .container .box-service p{
+    margin-top: 8px;
+    color: white;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+section.service .container .box-service:nth-of-type(odd){
+    width: 30%;
+    padding: 30px 2%;
+    background-color: #576975;
+}
+
+section.service .container .box-service:nth-of-type(even){
+    width: 40%;
+    padding: 50px 2%;
+    background-color: #688293;
+    background-image: none;
+}
+
+/* /service */
