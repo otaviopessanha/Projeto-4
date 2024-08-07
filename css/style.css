@@ -189,12 +189,58 @@ section.videos{
 }
 
 section.videos .box-video{
+    position: relative;
     float: left;
     width: 33.3%;
     padding-top: calc(33.3% * 0.6);
-    background-color: green;
+    border: 5px solid white;
+    background-color: gray;
+}
+
+section.videos iframe{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
 }
 /* /videos */
+
+/* treatments */
+section.treatments{
+    padding: 70px 0;
+}
+
+section.treatments .treatments-container{
+    float: left;
+    width: 33.3%;
+}
+
+section.treatments > h2{
+    color: #698293;
+    text-align: center;
+    font-size: 18px;
+}
+
+section.treatments > .container{
+        padding: 80px 0;
+}
+
+.treatments-single{
+    padding: 20px;
+}
+
+.treatments-single h2{
+    font-size: 18px;
+    color: #737373;
+}
+
+.treatments-single p{
+    padding: 10px 0;
+    font-size: 13px;
+    color: #b4b4b4;
+}
+/* /treatments */
 
 @media screen and (max-width: 850px){
     header nav.menu-desktop{
@@ -248,11 +294,29 @@ section.videos .box-video{
         text-align: justify;
         padding: 0 30px;
     }
+
+    section.videos {
+        text-align: center;
+    }
+
+    section.videos .box-video{
+        float: none;
+        width: 70%;
+        display: inline-block;
+        padding-top: calc(70% * 0.6);
+        /* border: 5px solid white; */
+    }
 }
 
 @media screen and (max-width: 580px){
     section.profile-container .img-profile{
         width: 80%;
         padding-top: 110%;
+    }
+
+    section.videos .box-video{
+        width: 100%;
+        padding-top: calc(100% * 0.6);
+        /* border: 5px solid white; */
     }
 }
