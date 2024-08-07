@@ -208,7 +208,7 @@ section.videos iframe{
 
 /* treatments */
 section.treatments{
-    padding: 70px 0;
+    padding-top: 70px;
 }
 
 section.treatments .treatments-container{
@@ -241,6 +241,49 @@ section.treatments > .container{
     color: #b4b4b4;
 }
 /* /treatments */
+
+/* feedback */
+section.feedback h2{
+    color: #698293;
+    text-align: center;
+    font-size: 18px;
+}
+
+section.feedback .container{
+    padding: 40px 0;
+    max-width: 400px;
+}
+
+section.feedback .feedback-single{
+    text-align: center;
+    width: 100%;
+    padding: 0 2%;
+}
+
+.feedback-single q{
+    font-size: 15px;
+    color: #b4b4b4;
+}
+
+.feedback-single .name-feedback{
+    padding: 19px 0;
+}
+
+.name-feedback img{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
+
+.name-feedback span{
+    position: relative;
+    top: 4px;
+    font-size: 13px;
+    color: #b4b4b4;
+    display: inline-block;
+    vertical-align: top;
+}
+/* /feedback */
 
 @media screen and (max-width: 850px){
     header nav.menu-desktop{
