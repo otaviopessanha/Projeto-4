@@ -315,7 +315,7 @@ section.feedback .feedback-single{
     float: left;
     width: calc(100% / 9);
     padding-top: calc(100% / 9);
-    background-color: blue;
+    background-color: gray;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border: 6px solid white;
